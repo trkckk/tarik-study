@@ -6,7 +6,6 @@ public class Book {
     private String title;
     private String isbn;
 
-    private String name;
     private Set<Author> authors;
 
     public Book() {
