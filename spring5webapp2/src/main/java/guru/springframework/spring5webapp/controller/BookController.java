@@ -18,7 +18,7 @@ public class BookController {
     public String getBooks(Model model){
         model.addAttribute("books",bookRepository.getClass());
 
-        return "books";
+        return "books/list";
     }
 
 }
